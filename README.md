@@ -76,3 +76,11 @@ def run_migrations_online() -> None:
 5. Применяем миграцию
 
 ```alembic upgrade head```
+
+6. Решить конфликт
+
+```alembic merge heads```
+
+7. Отменить последнюю миграцию
+
+```alembic downgrade -1```
